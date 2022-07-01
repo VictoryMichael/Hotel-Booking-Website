@@ -1,0 +1,118 @@
+.listcontainer{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+margin-left: 50px;
+}
+
+
+.list-wrapper{
+width: 100%;
+display: flex;
+gap: 20px;
+
+}
+
+.list-search{
+flex: 1;
+background-color: rgb(185, 185, 14);
+border-radius: 10px;
+position: sticky;
+top: 10px;
+height: max-content;
+}
+
+.list-result{
+flex: 3;
+
+}
+
+.list-title{
+font-size: 20px;
+color: rgb(32, 28, 28);
+margin-bottom: 10px;
+}
+
+.list-item{
+display: flex;
+flex-direction: column;
+gap: 5px;
+margin-bottom: 10px;
+}
+
+.list-item>input{
+height: 30px;
+border: none;
+padding: 5px;
+margin-left: 9px;
+  margin-right: 9px;
+}
+
+.list-item>span{
+    height: 30px;
+  margin-left: 9px;
+  margin-right: 9px;
+  padding: 5px;
+    background-color: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+cursor: pointer;
+
+    }
+
+.list-item>label{
+font-size: 15px;
+font-weight: 600;
+color: rgb(255, 255, 255);
+}
+
+.listoption-item{
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px ;
+color: rgb(58, 52, 52);
+font-size: 10px;
+
+margin-right: 9PX;
+font-weight: 900;
+}
+
+
+.listoption-item>input{
+    height: 20px;
+    
+  
+}
+
+.listoption-input{
+width: 50PX;
+
+
+}
+
+.search-tnt{
+    font-size: 16px;
+    padding: 10px;
+background-color: teal;
+color: white;
+border: none;
+width: 100%;
+font-weight: 500;
+cursor: pointer;
+margin: auto;
+width: 200px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 50px;
+
+}
+
+.search-tnt:hover{
+border: 1px solid white;
+
+
+}
+
+
+
+

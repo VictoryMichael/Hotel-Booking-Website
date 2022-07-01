@@ -1,0 +1,42 @@
+.Mail{
+width: 100%;
+margin-top: 50px;
+background-color: #003580;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+margin-top: -40px;
+padding: 50px;
+}
+
+.mail-inputcon>input{
+width: 300px;
+height: 30px;
+padding: 10px;
+border: none;
+margin-right: 10px;
+
+}
+
+
+.mail-inputcon>button{
+height: 30px;
+background-color: rgb(160, 45, 45);
+color: white;
+font-weight: 500;
+border-radius: 3px;
+cursor: pointer;
+
+
+}
+
+
+
+
+
+
+
+
+

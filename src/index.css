@@ -1,0 +1,30 @@
+*{
+   
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400;1,600;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+-ms-overflow-style: none;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  @media only screen and (max-width: 1200px) {
+
+    ::-webkit-scrollbar {
+        display: none;
+      }
+    
+body{
+width: 1200px;
+
+
+}
+
+
+  }
+
